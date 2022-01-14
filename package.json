@@ -1,6 +1,6 @@
 {
   "name": "simple-mus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "client-side multilingual support",
   "main": "dest/src/index.js",
   "scripts": {
