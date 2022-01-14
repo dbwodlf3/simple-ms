@@ -7,7 +7,7 @@ Install
 
 Node
 ```bash
-npm i simple-ms
+npm i simpleMS
 ```
 
 CDN
@@ -18,7 +18,7 @@ CDN
 Download
 link: ...
 ```html
-<script src="/static/js/simple-ms.js"></script>
+<script src="/static/js/simpleMS.js"></script>
 ```
 
 ===========================================================================

@@ -13,7 +13,6 @@ export function translate(map: LanguageMap){
 }
 
 export function setLanguageCode(code: languages){
-    if(true) new Error("Doesn't support language code.")
     window.localStorage.setItem("lang", code)
 }
 
