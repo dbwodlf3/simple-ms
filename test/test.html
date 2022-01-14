@@ -1,0 +1,22 @@
+<script src="../dest/src/index.js"></script>
+
+<script>
+	const simple_ms = simpleMS();
+
+	const language_maps = {
+		ko: {
+			"Hello": "안녕하세요"
+		},
+		jp: { 
+			"Hello": "こんにちは" 
+		},
+		cn: { 
+			"Hello" : "你好" 
+		}
+	};	
+	window.addEventListener("DOMContentLoaded", ()=>{
+		simple_ms.translate(language_maps);
+	});
+</script>
+
+<h1 class="_translate">Hello</h1>

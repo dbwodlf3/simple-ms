@@ -25,17 +25,27 @@ link: ...
 
 Usage
 ```html
-<h1>translate("Hello")</h1>
+<h1 class="_translate"> Hello </h1>
+```
 
-<script src="https://cdn.jsdelivr.net/npm/..."> 
+===========================================================================
+```js
 const language_maps = {
-	"ko": "안녕하세요",
-	"en": "Hello",
-	"jp": "こんにちは",
-	"cn": "你好"
-}
+	ko: {
+		"Hello": "안녕하세요"
+	},
+	jp: { 
+		"Hello": "こんにちは" 
+	},
+	cn: { 
+		"Hello" : "你好" 
+	}
+};
 
-translate(language_maps);
+window.addEventListener("DOMContentLoaded", ()=>{
+	setLanguageCode("ko");
+	simple_ms.translate(language_maps);
+});
 </script>
 ```
 
