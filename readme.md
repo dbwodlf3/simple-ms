@@ -12,7 +12,7 @@ npm i simple-mus
 
 CDN
 ```html
-<script src="https://cdn.jsdelivr.net/npm/..."></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-mus@1.0.1/dest/src/index.min.js"></script>
 ```
 
 Download
