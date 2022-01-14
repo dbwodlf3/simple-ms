@@ -28,7 +28,7 @@ function useBrowserCache(){
 
 }
 
-export function simpleMS(){
+export function simpleMUS(){
     return {
         translate : translate,
         setLanguageCode : setLanguageCode,
@@ -37,7 +37,5 @@ export function simpleMS(){
 }
 
 if(window){
-    window.simpleMS = simpleMS;
+    window.simpleMUS = simpleMUS;
 }
-
-// Where is Data...

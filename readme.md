@@ -7,7 +7,7 @@ Install
 
 Node
 ```bash
-npm i simpleMS
+npm i simple-mus
 ```
 
 CDN
@@ -18,7 +18,7 @@ CDN
 Download
 link: ...
 ```html
-<script src="/static/js/simpleMS.js"></script>
+<script src="/static/js/simple_mus.js"></script>
 ```
 
 ===========================================================================
@@ -42,7 +42,7 @@ const language_maps = {
 	}
 };
 
-const simple_ms = simpleMS();
+const simple_ms = simpleMUS();
 
 window.addEventListener("DOMContentLoaded", ()=>{
 	setLanguageCode("ko");

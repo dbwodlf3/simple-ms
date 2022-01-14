@@ -1,5 +1,5 @@
 {
-  "name": "simpleMS",
+  "name": "simple-mus",
   "version": "1.0.0",
   "description": "client-side multilingual support",
   "main": "dest/src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbwodlf3/simpleMS.git"
+    "url": "git+https://github.com/dbwodlf3/simple-mus.git"
   },
   "keywords": [
     "multilingual",
@@ -19,9 +19,9 @@
   "author": "dbwodlf3",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dbwodlf3/simpleMS/issues"
+    "url": "https://github.com/dbwodlf3/simple-mus/issues"
   },
-  "homepage": "https://github.com/dbwodlf3/simpleMS#readme",
+  "homepage": "https://github.com/dbwodlf3/simple-mus#readme",
   "devDependencies": {
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.0.0",

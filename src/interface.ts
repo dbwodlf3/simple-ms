@@ -11,5 +11,5 @@ export interface LanguageMap {
 }
 
 declare global {
-    interface Window { simpleMS: any }
+    interface Window { simpleMUS: any }
 } 
