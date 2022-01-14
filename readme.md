@@ -42,6 +42,8 @@ const language_maps = {
 	}
 };
 
+const simple_ms = simpleMS();
+
 window.addEventListener("DOMContentLoaded", ()=>{
 	setLanguageCode("ko");
 	simple_ms.translate(language_maps);
